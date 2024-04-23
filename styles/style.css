@@ -35,12 +35,15 @@ body {
     padding: 1rem;
     font-size: 1.25rem;
     font-weight: bold;
+    margin-top: 1rem;
 }
 
 .flightDom {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     margin-top: 1.25rem;
+    background-color: #16181a;
+    padding: 0.4rem;
 }
 
 .departureDateDom,

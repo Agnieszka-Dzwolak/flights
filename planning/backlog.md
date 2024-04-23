@@ -2,12 +2,13 @@
 
 ## Must-Haves
 
-> these are necessary for basic usability
+> On the hero section user must see a prominent image User must see flight
+> details tree with the headers Sorted flights by departure date and time
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
+> When user click on flight detail user can see the single flight details
 
 ## Could-Haves
 
-> would be really cool ... if there's time
+> Add more detail about flight information

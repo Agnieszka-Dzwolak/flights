@@ -11,7 +11,6 @@
   - [Technologies](#technologies)
   - [Setup](#setup)
   - [Code Examples](#code-examples)
-  - [Features](#features)
   - [Status](#status)
 
 ## General info
@@ -21,7 +20,7 @@
 
 ## Screenshots
 
-![Example screenshot]()
+![Example screenshot](./assets/Screenshot.png)
 
 ## Technologies
 
@@ -47,19 +46,6 @@ const loadHandler = () => {
 };
 ```
 
-## Features
-
-List of features ready and Todos for future development
-
--
--
--
-
-To-do list:
-
--
--
-
 ## Status
 
-Project is: _in progress_
+Project is: _done_

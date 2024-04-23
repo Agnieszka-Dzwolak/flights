@@ -1,4 +1,3 @@
-import data from '../data.js';
 import loadHandler from '../handlers/loadHandler.js';
 
 const loadEvent = () => {

@@ -27,7 +27,7 @@ body {
     max-width: 25%;
 }
 
-.flight {
+.flights {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     color: var(--main-yellow);
@@ -37,7 +37,7 @@ body {
     font-weight: bold;
 }
 
-.container {
+.flightDom {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     margin-top: 1.25rem;

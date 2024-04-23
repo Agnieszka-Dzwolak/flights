@@ -1,22 +1,23 @@
-# Image gallery
+# Flights
 
-> A simple
+> A simple project displaying flights information.
 
 ## Table of contents
 
-- [General info](#general-info)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies)
-- [Setup](#setup)
-- [Features](#features)
-- [Status](#status)
-- [Inspiration](#inspiration)
-- [Contact](#contact)
+- [Flights](#flights)
+  - [Table of contents](#table-of-contents)
+  - [General info](#general-info)
+  - [Screenshots](#screenshots)
+  - [Technologies](#technologies)
+  - [Setup](#setup)
+  - [Code Examples](#code-examples)
+  - [Features](#features)
+  - [Status](#status)
 
 ## General info
 
-> The objective of the project is to practice separation of concern in
-> JavaScript.
+> Flight schedule. The objective of the project is to practice separation of
+> concern in JavaScript.
 
 ## Screenshots
 
@@ -28,15 +29,22 @@
 - HTML5
 - CSS3
 - VSC code
+- Jest testing
 
 ## Setup
 
-clone the repo and start using the stop watch.
+clone the repo and run npm install.
 
 ## Code Examples
 
 ```js
-
+const loadHandler = () => {
+	const organizedFlights = data.flights.sort((a, b) => {
+		return (
+			new Date(a.departureDate).getTime() - new Date(b.departureDate).getTime()
+		);
+	});
+};
 ```
 
 ## Features
